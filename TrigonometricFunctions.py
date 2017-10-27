@@ -30,5 +30,18 @@ def cos(k, x):
 
     return result
 
-print (sin(40, math.pi))
-print (math.sin(math.pi))
+#TAN THE EASY WAY ;)
+def tan(k, x):
+    
+    return sin(k, x) / cos(k, x)
+
+degree     = 180
+iterations = 10
+
+mySin = sin(iterations, degreesToRad(degree))
+myCos = cos(iterations, degreesToRad(degree))
+myTan = tan(iterations, degreesToRad(degree))
+
+print (mySin)
+print (myCos)
+print (myTan)
